@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data():
-    data = pd.read_csv(".\dashboard\main_data.csv")
+    data = pd.read_csv("dashboard/main_data.csv")
     return data
 
 def show_total_count_chart(data):
